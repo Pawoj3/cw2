@@ -1,8 +1,8 @@
 #!/bin/bash
-user_filename=$1
-defined_filename=data.txt
+u_fn=$1
+d_fn=data.txt
 if [ $# -eq 0 ]; then
-    date > $defined_filename
+    date > $d_fn
 else
-    date > $user_filename
+    date > $u_fn
 fi
